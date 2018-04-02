@@ -14,7 +14,7 @@ Fighter id can be complete fighter id or just the code id. Example: Jose-Aldo-11
 ### Cloning and Install
 
 ```
-git clone https://github.com/drcoelho/sherdog
+git clone https://github.com/kwaaak/sherdog
 cd sherdog
 sudo python setup.py install
 ```
