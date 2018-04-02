@@ -77,10 +77,8 @@ class Sherdog:
 
         bio = soup.find("div", {"class": "bio_fighter"})
 
-        name = bio.find("h1", {"itemprop": "name"})
-
         fn = soup.find("span", {"class": "fn"})
-        nickname_span = name.find("span", {"class": "nickname"})
+        nickname_span = soup.find("span", {"class": "nickname"})
         nickname = nickname_span.find("em") if nickname_span else None
 
         nationality = soup.find("strong", {"itemprop": "nationality"})
