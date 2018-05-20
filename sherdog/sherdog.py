@@ -47,7 +47,7 @@ class Sherdog:
 
         fighter_url = self.sherdog_fighter_url + fighter_id
 
-        req = urllib.request.Request(url=fighter_url, timeout=self.request_timeout, headers={'User-Agent':' Mozilla/5.0 (Windows NT 6.1; WOW64; rv:12.0) Gecko/20100101 Firefox/12.0'})
+        req = urllib2.Request(url=fighter_url, timeout=self.request_timeout, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'})
         response = urllib2.urlopen(req)
         logging.debug("Http request time: %s " % (time() - start))
 
