@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='sherdog',
-      version='0.1',
+      version='0.1.2',
       description='The Sherdog API',
       url='https://bitbucket.org/davidrcoelho/msc',
       author='David Coelho',
